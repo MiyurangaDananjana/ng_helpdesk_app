@@ -1,27 +1,27 @@
-# WebApp
+/src: This directory contains all the source code for your Angular application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+/app: This is the main folder where your application code resides.
 
-## Development server
+/components: Contains Angular components responsible for different parts of your helpdesk application (e.g., dashboard, tickets, ticket details, users, etc.).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+/services: Contains Angular services for handling business logic and data operations (e.g., authentication service, tickets service, users service, etc.).
 
-## Code scaffolding
+/models: Contains TypeScript classes/interfaces representing data structures used in your application (e.g., ticket model, user model, etc.).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+/helpers: Contains utility/helper classes and functions used across the application (e.g., authentication guard, error interceptor, etc.).
 
-## Build
+/shared: Contains reusable components, pipes, directives, and models shared across multiple components/services.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+/assets: Contains static assets like images, icons, etc.
 
-## Running unit tests
+/environments: Contains environment-specific configuration files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+app-routing.module.ts: Contains the routing configuration of your application.
 
-## Running end-to-end tests
+app.component.ts/html/scss/spec.ts: Root component files.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+app.module.ts: Main module file where you declare your components, services, and other Angular modules.
 
-## Further help
+index.html: The main HTML file of your Angular application.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+styles.scss: Global styles for your application.
